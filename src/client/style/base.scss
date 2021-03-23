@@ -1,0 +1,45 @@
+$base-font:   'Tajawal', sans-serif;
+
+
+body
+{
+    font-family: $base-font;
+  }
+
+nav
+{
+  background-color: #0f4f59;
+  ul
+  {
+    list-style: none;
+    display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+  	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+    min-height: 8vh;
+  }  li
+  {
+    padding: 1.5rem;
+    color: #ecee53;
+  }
+}
+
+#results
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 30vh;
+
+
+  span
+  {
+  padding: .5rem;
+
+  }
+}
